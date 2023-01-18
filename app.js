@@ -31,4 +31,18 @@ addBtn.addEventListener("click", (e) => {
     completed: false, //status
     text: todoInput.value, //userInput
   };
+
+  createTodo();
+  todoList.push(newTodo);
+  //interviwe sorusu
+  //localStorage todoList Update 
+  //localStorage vs. SessionStorage vs. Cookies arasındaki fark?
+  localStorage.setItem("todoList", todaList);
+  //event.target vs. event.currentTarget;
 });
+
+const createTodo = () =>{
+    
+
+
+}
