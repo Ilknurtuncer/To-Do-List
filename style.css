@@ -72,7 +72,7 @@
     overflow-x: hidden;
   }
   
-  /* .todos ul {
+  .todos ul {
     list-style: none;
   }
   
@@ -86,9 +86,9 @@
     transition: all 0.5s;
   }
   
-  /* ul li:nth-child(even) {
+   ul li:nth-child(even) {
     background: #dde6f5;
-  } */
+  }
   
   ul li:hover {
     transform: translate(3px, 2px);
@@ -124,4 +124,4 @@
     li p {
       font-size: 0.8rem;
     }
-  } */
+   } 
