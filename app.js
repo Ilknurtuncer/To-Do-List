@@ -46,7 +46,7 @@ addBtn.addEventListener("click", (e) => {
 
 const createTodo = (newTodo) =>{
     
-     //todo item creation
+    //  todo item creation
     //alert("item was added");
     //obj. dest. (ES6 => JS'e kazandırılan yapılar??)
     const { id, completed, text } = newTodo;
