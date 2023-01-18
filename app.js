@@ -37,8 +37,9 @@ addBtn.addEventListener("click", (e) => {
   //interviwe sorusu
   //localStorage todoList Update 
   //localStorage vs. SessionStorage vs. Cookies arasındaki fark?
-  localStorage.setItem("todoList", todaList);
+  localStorage.setItem("todoList", JSON.stringify(todaList));
   //event.target vs. event.currentTarget;
+  e.target.closest("form").reset();
 });
 
 const createTodo = () =>{
