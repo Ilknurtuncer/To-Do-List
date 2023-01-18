@@ -40,9 +40,9 @@ addBtn.addEventListener("click", (e) => {
   localStorage.setItem("todoList", JSON.stringify(todaList));
   //event.target vs. event.currentTarget;
   e.target.closest("form").reset();
-});
+})
 
-const createTodo = () =>{
+const createTodo = (newTodo) =>{
     
 
 
